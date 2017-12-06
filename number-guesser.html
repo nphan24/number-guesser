@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Number Guesser</title>
+    <link rel="stylesheet" type="text/css" href="number-guesser.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <h1>Number <span>Guesser</span></h1>
+    </header>
+
+<!--phase three-->
+    <form id="minMax">
+      <input type="text" id="min" name="min" value="" placeholder="min">
+      <input type="text" id="max" name="max" value="" placeholder="max">
+    </form>
+    <br>
+<!--end phase three-->
+
+    <form id="form">
+      <input type="text" class="input" name="user-guess" id="user-guess" placeholder="Enter your guess" required min="1" max="100" value="">
+      <br>
+      <button id="guess-button" class="but" disabled="true">Guess</button>
+      <button id="clear-button" class="but" disabled="true">Clear</button>
+    </form>
+
+    <section id="returns">
+      <h3 class="returnLineOne" id="returnLineOne"></h3>
+      <h3 class="returnLineTwo" id="returnLineTwo"></h3>
+      <h3 class="returnLineThree" id="returnLineThree"></h3>
+    </section>
+
+    <br>
+    <form id="form">
+      <button id="reset-button" class="but" disabled="true">Reset</button>
+    </form>
+
+  </body>
+  <script type="text/javascript" src="number-guesser.js"></script>
+</html>

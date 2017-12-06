@@ -1,0 +1,60 @@
+/*top banner*/
+body {
+  text-align: center;
+}
+
+h1 {
+  background-color: #404041;
+  color: #ED458B;
+  font-family: 'open-sans', sans-serif;
+  font-weight: 700;
+  margin-top: 0px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+span {
+  color: #E6E7E8;
+  font-weight: 300; 
+}
+/*middle section*/
+button {
+  background-color: #929497;
+  border-radius: 25px;
+  color:#FFF;
+  width: 25%;
+  margin: 5%;
+  padding-top:2px;
+  padding-bottom:2px;
+}
+
+button:hover {
+  background-color: #ED008B;
+}
+
+button:disabled {
+  background-color: #D0D2D3;
+}
+
+.input {
+  width: 30%;
+  height: 10px;
+  padding: 5px;
+}
+
+.returnLineOne {
+  color:#404041;
+}
+
+.returnLineTwo {
+  color: #EB008B;
+  font-size:60px;
+}
+
+.returnLineThree {
+  color:#404041;
+}
+
+#reset {
+  width: 55%;
+}
