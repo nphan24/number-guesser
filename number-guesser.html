@@ -2,22 +2,14 @@
 <html>
   <head>
     <title>Number Guesser</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,700">
     <link rel="stylesheet" type="text/css" href="number-guesser.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
   </head>
 
   <body>
     <header>
       <h1>Number <span>Guesser</span></h1>
     </header>
-
-<!--phase three-->
-    <form id="minMax">
-      <input type="text" id="min" name="min" value="" placeholder="min">
-      <input type="text" id="max" name="max" value="" placeholder="max">
-    </form>
-    <br>
-<!--end phase three-->
 
     <form id="form">
       <input type="text" class="input" name="user-guess" id="user-guess" placeholder="Enter your guess" required min="1" max="100" value="">
@@ -37,6 +29,16 @@
       <button id="reset-button" class="but" disabled="true">Reset</button>
     </form>
 
+    <h5 class="afterWin">Enter Your Own Range</h5>
+    <form id="form">
+      <input type="text" id="mins" name="mins" value="" placeholder="min">
+      <input type="text" id="maxs" name="maxs" value="" placeholder="max">
+    </form>
+
+    <button id="enter-button" disabled="true">Enter</button>
+    <br>
+    <h5 class="rangeNan" id="rangeNan"></h5>
+    <h5 class="rangeMessages" id="rangeMessages"></h5>
   </body>
   <script type="text/javascript" src="number-guesser.js"></script>
 </html>
